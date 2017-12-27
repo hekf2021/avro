@@ -1,0 +1,29 @@
+{
+   "namespace": "com.avro",
+   "type": "record",
+   "name": "Info",
+   "fields": [
+      {
+         "name": "id",
+         "type": "string"
+      },
+      {
+         "name": "name",
+         "type": "string"
+      },
+      {
+         "name": "apk",
+         "type": [
+            "string",
+            "null"
+         ]
+      },
+      {
+         "name": "com",
+         "type": [
+            "string",
+            "null"
+         ]
+      }
+   ]
+}
